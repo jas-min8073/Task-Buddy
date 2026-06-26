@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
@@ -14,3 +15,7 @@ The React Compiler is not enabled on this template because of its impact on dev 
 ## Expanding the ESLint configuration
 
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+=======
+# TaskBuddy
+TaskBuddy is a responsive task management web application built with React.js that helps users organize, track, and manage daily tasks efficiently. It allows users to add, update, complete, and delete tasks while monitoring progress through a real-time progress tracker.
+>>>>>>> 671b0589ae23bfa65ed627cd8af7e245b0f2ad69
