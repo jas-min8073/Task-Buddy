@@ -1,0 +1,386 @@
+/* Minimal, clean styles for the Task Manager */
+
+
+/* ========================
+   GLOBAL
+======================== */
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  font-family: -apple-system, system-ui, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+
+  background:
+    radial-gradient(circle at top left, rgba(59,130,246,0.5), transparent 35%),
+    radial-gradient(circle at bottom right, rgba(239,68,68,0.35), transparent 35%),
+    linear-gradient(135deg, #000000, #111827, #1f2937);
+
+  color: white;
+}
+
+/* ========================
+   APP CONTAINER
+======================== */
+.App {
+  max-width: 720px;
+  margin: 40px auto;
+  padding: 24px;
+  border-radius: 20px;
+
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255,255,255,0.18);
+
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
+
+  box-shadow: 0 8px 32px rgba(0,0,0,0.35);
+}
+
+/* ========================
+   HEADER
+======================== */
+header {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0 0 4px 0;
+  font-size: 32px;
+  color: #60a5fa;
+}
+
+header p {
+  margin: 0;
+  color: rgba(255,255,255,0.75);
+}
+
+/* ========================
+   FORM
+======================== */
+.task-form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 16px 0;
+}
+
+#inp {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex: 1;
+  padding: 10px 12px;
+  border-radius: 12px;
+
+  background: rgba(255,255,255,0.08);
+  border: 1px solid rgba(255,255,255,0.15);
+}
+
+#inp input {
+  flex: 1;
+  border: 0;
+  outline: 0;
+  background: transparent;
+  font-size: 14px;
+  color: white;
+}
+
+#inp input::placeholder {
+  color: rgba(255,255,255,0.5);
+}
+
+#inp button {
+  border: 0;
+  background: linear-gradient(135deg, #2563eb, #3b82f6);
+  color: white;
+  padding: 10px 14px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* ========================
+   SELECT
+======================== */
+#btns {
+  display: flex;
+  gap: 8px;
+}
+
+#btns select {
+  padding: 8px 10px;
+  border-radius: 8px;
+  color: white;
+
+  background: rgba(255,255,255,0.08);
+  border: 1px solid rgba(255,255,255,0.15);
+}
+
+/* ========================
+   TASK LIST
+======================== */
+.task-list {
+  list-style: none;
+  padding: 0;
+  margin: 16px 0;
+}
+
+.task-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+  padding: 14px;
+  margin-bottom: 12px;
+  border-radius: 12px;
+
+  background: rgba(255,255,255,0.07);
+  border: 1px solid rgba(255,255,255,0.12);
+}
+
+.task-list li.completed {
+  text-decoration: line-through;
+  opacity: 0.6;
+}
+
+.task-list button {
+  background: none;
+  border: 0;
+  color: #34d399;
+  cursor: pointer;
+  padding: 6px 8px;
+  border-radius: 6px;
+}
+
+/* ========================
+   PROGRESS
+======================== */
+.progress-tracker {
+  margin-top: 18px;
+}
+
+.progress-bar {
+  height: 12px;
+  background: rgba(255,255,255,0.12);
+  border-radius: 999px;
+  overflow: hidden;
+}
+
+.progress {
+  height: 100%;
+  background: linear-gradient(90deg, #3b82f6, #ef4444);
+}
+
+/* ========================
+   CLEAR BUTTON
+======================== */
+.clear-btn {
+  margin-top: 16px;
+  width: 100%;
+  background: linear-gradient(135deg, #ef4444, #dc2626);
+  color: white;
+  border: 0;
+  padding: 12px 14px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
