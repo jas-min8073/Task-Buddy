@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
@@ -24,3 +25,7 @@ TaskBuddy is a responsive task management web application built with React.js th
 # TaskBuddy1
 hi
 >>>>>>> d7bd3f29422a7bf4233c48b6a7928924afed5e21
+=======
+# Task-Buddy
+hi
+>>>>>>> 9de86acc251ffc9b917980f7a079ceec8a69e5f3
